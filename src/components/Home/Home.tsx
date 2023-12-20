@@ -1,10 +1,11 @@
+import Title from "../Titles/Title/Title";
 import "./home.css";
 
 const Home = () => {
   return (
     <>
-      <div className="containerInicio">
-        <h1>Inicio</h1>
+      <div className="container-inicio">
+        <Title text="Hebario CIB" />
       </div>
     </>
   );

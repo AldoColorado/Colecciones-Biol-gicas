@@ -1,0 +1,11 @@
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title-label {
+    color: var(--main--color);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

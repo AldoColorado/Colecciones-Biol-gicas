@@ -1,0 +1,25 @@
+.sidebar{
+    z-index: 1;
+    background-color: var(--main--color);
+    position: fixed;   
+    height: 100%;
+
+}   
+
+
+.sidebar .header{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.sidebar img{
+    height: 120px;  
+    width: 90px;
+    border-radius: 5px;
+}
+
+.sidebar .itemsSidebar{
+    padding-top: 1em;
+}

@@ -1,0 +1,18 @@
+.containerHeader{
+    background-color: #FFFFFF;
+    display: flex;
+    max-height: 70px;
+    width: 100%;
+    box-shadow: 4px 4px 16px #C0C0C0;
+}
+
+.containerHeader .optionsContainer{
+    display: flex;
+    grid-gap: 2em;
+    margin: auto;
+}
+
+.containerHeader .buttonLoginContainer{
+    margin-right: 2em;
+    margin-top: 1em;
+}

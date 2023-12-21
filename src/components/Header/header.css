@@ -1,9 +1,8 @@
 .containerHeader{
     background-color: #FFFFFF;
     display: flex;
-    max-height: 70px;
-    width: 100%;
     box-shadow: 4px 4px 16px #C0C0C0;
+    margin-left: 12%;
 }
 
 .containerHeader .optionsContainer{
@@ -15,4 +14,6 @@
 .containerHeader .buttonLoginContainer{
     margin-right: 2em;
     margin-top: 1em;
+    margin-bottom: 1em;
+
 }

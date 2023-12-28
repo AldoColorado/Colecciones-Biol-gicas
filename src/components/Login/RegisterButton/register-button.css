@@ -1,0 +1,10 @@
+.register-button {
+    color: #7DA8FF;
+    background-color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    padding-left: 0%;
+    padding-right: 0%;
+
+}

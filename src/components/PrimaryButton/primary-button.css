@@ -5,5 +5,6 @@
     font-weight: bolder;
     cursor: pointer;
     padding: 0.5em 1em;
-    margin: auto;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }

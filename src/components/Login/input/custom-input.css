@@ -1,0 +1,38 @@
+.custom-input{
+    display: flex;
+    border: 1px solid var(--main--color);
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;   
+}
+
+.custom-input .input {
+    position: relative;
+    width: 100%;
+}
+
+.custom-input input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    color: red;
+    font-size: 1em;
+}
+
+.custom-input span{
+    position: absolute;
+}
+
+
+
+.custom-input .MuiSvgIcon-root{
+    color: var(--main--color);
+}
+
+
+.custom-input .input:valid ~ span,
+.custom-input .input:focus ~ span{
+    color: var(--main--color);
+    transform: translateX(10px) translateY(-7px);
+}

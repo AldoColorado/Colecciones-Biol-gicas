@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <>
       <div className="container-inicio">
-        <Title text="Hebario CIB" />
+        <Title text="Herbario CIB" />
         <InformationText text={informacionInicio} />
       </div>
     </>
